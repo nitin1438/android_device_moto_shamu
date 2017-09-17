@@ -120,6 +120,7 @@ DEVICE_PACKAGE_OVERLAYS := \
     device/motorola/shamu/overlay
 
 PRODUCT_PACKAGES += \
+    android.hardware.wifi@1.0 \
     android.hardware.wifi@1.0-service \
     libwpa_client \
     hostapd \
